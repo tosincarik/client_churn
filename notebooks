@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMCpXT7KP6Y1jE320R0orof",
+      "authorship_tag": "ABX9TyPiGzfw9UYSbprTYFMcN4ZN",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -23,23 +23,23 @@
         "colab_type": "text"
       },
       "source": [
-        "<a href=\"https://colab.research.google.com/github/tosincarik/client_churn/blob/main/notebooks/streamlit.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+        "<a href=\"https://colab.research.google.com/github/tosincarik/client_churn/blob/main/notebooks\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
     },
     {
       "cell_type": "code",
       "source": [
-        "!pip install streamlit"
+        "#!pip install streamlit"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "HfysqgS_eH70",
-        "outputId": "62802b85-f35d-4ceb-f615-23e2a75c71c7",
+        "outputId": "483c951c-53a6-457b-c45f-019383dafe08",
         "collapsed": true
       },
-      "execution_count": null,
+      "execution_count": 16,
       "outputs": [
         {
           "output_type": "stream",
@@ -97,9 +97,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "dBxiCYFazwcF",
-        "outputId": "8d7cd520-1fa6-487c-d610-8f396d3195a2"
+        "outputId": "1c311488-87d4-4393-be28-7d1d7eda12da"
       },
-      "execution_count": null,
+      "execution_count": 17,
       "outputs": [
         {
           "output_type": "stream",
@@ -156,28 +156,28 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "pZzkRYKqL2-u",
-        "outputId": "b710fcc0-ece1-43bc-b938-40e3203140ad"
+        "outputId": "a825d725-e43b-4111-b046-b62e9ba04fc1"
       },
-      "execution_count": null,
+      "execution_count": 18,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stderr",
           "text": [
-            "2025-07-09 12:35:57.509 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
-            "2025-07-09 12:35:57.512 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
-            "2025-07-09 12:35:57.514 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
-            "2025-07-09 12:35:57.515 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
-            "2025-07-09 12:35:57.518 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
-            "2025-07-09 12:35:57.518 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
-            "2025-07-09 12:35:57.520 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
-            "2025-07-09 12:35:57.521 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
-            "2025-07-09 12:35:57.522 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
-            "2025-07-09 12:35:57.523 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
-            "2025-07-09 12:35:57.524 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
-            "2025-07-09 12:35:57.525 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
-            "2025-07-09 12:35:57.526 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
-            "2025-07-09 12:35:57.526 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n"
+            "2025-07-09 12:43:31.692 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
+            "2025-07-09 12:43:31.694 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
+            "2025-07-09 12:43:31.695 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
+            "2025-07-09 12:43:31.697 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
+            "2025-07-09 12:43:31.698 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
+            "2025-07-09 12:43:31.699 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
+            "2025-07-09 12:43:31.700 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
+            "2025-07-09 12:43:31.701 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
+            "2025-07-09 12:43:31.702 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
+            "2025-07-09 12:43:31.703 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
+            "2025-07-09 12:43:31.704 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
+            "2025-07-09 12:43:31.705 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
+            "2025-07-09 12:43:31.706 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n",
+            "2025-07-09 12:43:31.707 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n"
           ]
         }
       ]
